@@ -1,0 +1,42 @@
+baseURL = "iloegbunamraymond.com"
+languageCode = "en-us"
+title = "Raymond Iloegbunam"
+theme = "hyde"
+
+[[menu.main]]
+name = "About"
+url = "/about/"
+weight = 1
+
+[[menu.main]]
+name = "Projects"
+url = "/projects/"
+weight = 2
+
+[[menu.main]]
+name = "Experience"
+url = "/experience/"
+weight = 3
+
+[[menu.main]]
+name = "Education"
+url = "/education/"
+weight = 4
+
+[[menu.main]]
+name = "Certification"
+url = "/certification/"
+weight = 5
+
+[[menu.main]]
+name = "Contact"
+url = "/contact/"
+weight = 6
+
+
+[params]
+  description = "Data Scientist"
+  profileImage = "images/profile.jpg"
+  github = "https://github.com/raystanlee"
+  linkedin = "https://www.linkedin.com/in/raymond-iloegbunam"
+  x = "https://x.com/ray_stanlee"

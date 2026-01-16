@@ -1,0 +1,26 @@
+/* Push the whole sidebar content up a bit */
+.sidebar-about {
+  padding-top: 0.5rem !important;
+}
+
+/* Profile image: bigger + higher */
+.sidebar-about img {
+  width: 230px !important;
+  height: 230px !important;
+  object-fit: cover !important;
+  border-radius: 50% !important;
+  display: block !important;
+  margin: -40px auto 10px !important;
+}
+
+/* Name: smaller + tighter */
+.sidebar-about h1 {
+  font-size: 1.95rem !important;
+  line-height: 1.05 !important;
+  margin-bottom: 6px !important;
+}
+
+/* Subtitle spacing */
+.sidebar-about .lead {
+  margin-top: 6px !important;
+}
