@@ -1,8 +1,5 @@
 ---
-title: "Content Placeholder"
-build:
-  render: never
-  list: never
-  publishResources: false
+title: "Projects"
+date: 2024-01-16
 ---
 

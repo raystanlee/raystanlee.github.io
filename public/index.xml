@@ -2,11 +2,32 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>About Me on Raymond Iloegbunam</title>
-    <link>iloegbunamraymond.com/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content in About Me on Raymond Iloegbunam</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate></lastBuildDate>
-    <atom:link href="iloegbunamraymond.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 16 Jan 2026 11:26:34 -0500</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Fri, 16 Jan 2026 11:26:34 -0500</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>GraphRAG for Survey</title>
+      <link>http://localhost:1313/projects/drone-vision/</link>
+      <pubDate>Wed, 10 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/drone-vision/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;A recommendation system using GraphRAG&amp;hellip;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>SeaPerch Underwater ROV</title>
+      <link>http://localhost:1313/projects/searperch/</link>
+      <pubDate>Mon, 15 Aug 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/searperch/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;I mentored K-12 students in building SeaPerch underwater remotely operated vehicles (ROVs) during a summer robotics camp. SeaPerch is an educational program that introduces students to engineering, design, and marine robotics through hands-on construction and testing.&lt;/p&gt;&#xA;&lt;h2 id=&#34;building-from-scratch&#34;&gt;Building from Scratch&lt;/h2&gt;&#xA;&lt;p&gt;Over the course of the camp, students worked in teams to complete their ROVs from scratch. The project involved soldering electronic components, waterproofing motors, assembling PVC frames, and integrating control systems. Each team customized their ROV design—choosing between Utility, Mini, and V-Wing configurations—based on specific mission requirements.&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>

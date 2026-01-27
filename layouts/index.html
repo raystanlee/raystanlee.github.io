@@ -1,6 +1,25 @@
 {{ define "main" }}
-<article class="page">
-  <h1>{{ .Title }}</h1>
-  {{ .Content }}
-</article>
+<div class="post">
+  <div class="post-content">
+    {{ .Content }}
+    
+    <!-- Featured Projects Section -->
+    <h2>Featured Projects</h2>
+    <div class="project-grid">
+      {{ range first 6 (where .Site.RegularPages "Section" "projects") }}
+      <a class="project-card" href="{{ .Permalink }}">
+        {{ if .Params.image }}
+        <img class="project-thumb" src="{{ .Params.image | relURL }}" alt="{{ .Title }}">
+        {{ end }}
+        <div class="project-meta">
+          <div class="project-title">{{ .Title }}</div>
+          {{ if .Params.subtitle }}
+          <div class="project-subtitle">{{ .Params.subtitle }}</div>
+          {{ end }}
+        </div>
+      </a>
+      {{ end }}
+    </div>
+  </div>
+</div>
 {{ end }}

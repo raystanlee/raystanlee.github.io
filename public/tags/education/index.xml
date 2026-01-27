@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Education on Raymond Iloegbunam</title>
+    <link>http://localhost:1313/tags/education/</link>
+    <description>Recent content in Education on Raymond Iloegbunam</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 15 Aug 2022 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/education/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SeaPerch Underwater ROV</title>
+      <link>http://localhost:1313/projects/searperch/</link>
+      <pubDate>Mon, 15 Aug 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/searperch/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;I mentored K-12 students in building SeaPerch underwater remotely operated vehicles (ROVs) during a summer robotics camp. SeaPerch is an educational program that introduces students to engineering, design, and marine robotics through hands-on construction and testing.&lt;/p&gt;&#xA;&lt;h2 id=&#34;building-from-scratch&#34;&gt;Building from Scratch&lt;/h2&gt;&#xA;&lt;p&gt;Over the course of the camp, students worked in teams to complete their ROVs from scratch. The project involved soldering electronic components, waterproofing motors, assembling PVC frames, and integrating control systems. Each team customized their ROV design—choosing between Utility, Mini, and V-Wing configurations—based on specific mission requirements.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
