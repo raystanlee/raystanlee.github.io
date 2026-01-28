@@ -1,7 +1,7 @@
 baseURL = "https://iloegbunamraymond.com/"
 languageCode = "en-us"
 title = "Raymond Iloegbunam"
-theme = "hyde"
+theme = "hyde-custom"
 
 [[menu.main]]
 name = "About"
@@ -33,10 +33,14 @@ name = "Contact"
 url = "/contact/"
 weight = 6
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
 
 [params]
   description = "Data Scientist"
-  profileImage = "images/profile.jpg"
+  profileImage = "img/profile.jpg"
   github = "https://github.com/raystanlee"
   linkedin = "https://www.linkedin.com/in/raymond-iloegbunam"
   x = "https://x.com/ray_stanlee"

@@ -1,9 +1,10 @@
 ---
 title: "SeaPerch Underwater ROV"
-subtitle: "K-12 robotics mentorship program"
+group: hardware
 date: 2022-08-15
 draft: false
 image: "img/seaperch/2.png"
+show_in_home: true
 tags: ["robotics", "education", "hardware"]
 ---
 
