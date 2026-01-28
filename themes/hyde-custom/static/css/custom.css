@@ -1,0 +1,122 @@
+/* ===============================
+   FILTER BUTTONS
+================================ */
+
+.experience-type-tag-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 1rem;
+}
+
+.experience-type-tag {
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  padding: 6px 12px;
+  border-radius: 4px;
+  background: rgba(0,0,0,0.05);
+  font-size: 0.85rem;
+  font-weight: 500;
+  opacity: 0.8;
+}
+
+.experience-type-tag:hover {
+  opacity: 1;
+}
+
+.experience-type-color {
+  width: 12px;
+  height: 12px;
+  border-radius: 2px;
+  margin-right: 6px;
+}
+
+#clear-experience-filter {
+  cursor: pointer;
+  margin-left: auto;
+  font-size: 0.8rem;
+  opacity: 0.6;
+}
+
+#clear-experience-filter:hover {
+  opacity: 1;
+}
+
+/* ===============================
+   GRID FILTER LOGIC
+================================ */
+
+/* Default: hide everything */
+#filterable-grid > div {
+  display: none;
+}
+
+/* Show all */
+#filterable-grid.grid-show-all > div {
+  display: block;
+}
+
+/* Show by group */
+#filterable-grid.grid-show-software .grid-section-software,
+#filterable-grid.grid-show-ml .grid-section-ml,
+#filterable-grid.grid-show-hardware .grid-section-hardware,
+#filterable-grid.grid-show-professional .grid-section-professional {
+  display: block;
+}
+
+/* ===============================
+   PROJECT CARDS
+================================ */
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 2rem;
+  margin: 2rem 0;
+}
+
+.project-card {
+  display: block;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  overflow: hidden;
+  text-decoration: none;
+  color: inherit;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.project-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.project-thumb {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.project-meta {
+  padding: 1.5rem;
+}
+
+.project-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.project-subtitle {
+  color: #666;
+  font-size: 0.9rem;
+}
+
+/* Override Hyde: stop anchoring sidebar content to the bottom */
+/* Make sidebar content start at top (override Hyde's bottom-anchoring) */
+@media (min-width: 48em) {
+  .sidebar-sticky {
+    top: 1rem !important;
+    bottom: auto !important;
+  }
+}

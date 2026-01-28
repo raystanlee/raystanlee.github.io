@@ -1,0 +1,57 @@
+<aside class="sidebar">
+  <div class="container sidebar-sticky">
+
+    <div class="sidebar-about">
+      {{ with .Site.Params.profileImage }}
+        <div class="sidebar-profile-pic">
+          <img src="{{ . | relURL }}" alt="Profile" class="sidebar-profile-img" />
+        </div>
+      {{ end }}
+
+      <a href="{{ "/" | relLangURL }}"><h1>{{ .Site.Title }}</h1></a>
+
+      <p class="lead">
+        {{ with .Site.Params.description }}
+          {{ . }}
+        {{ else }}
+          An elegant open source and mobile first theme for <a href="http://hugo.spf13.com">hugo</a>
+          made by <a href="http://twitter.com/mdo">@mdo</a>. Originally made for Jekyll.
+        {{ end }}
+      </p>
+    </div>
+
+    <!-- Main navigation -->
+    <nav>
+      <ul class="sidebar-nav">
+        <li><a href="{{ "/" | relLangURL }}">Home</a></li>
+        {{ range .Site.Menus.main }}
+          <li><a href="{{ .URL | relLangURL }}">{{ .Name }}</a></li>
+        {{ end }}
+      </ul>
+    </nav>
+
+    <!-- Social links -->
+    <nav style="margin-top: 22px;">
+      <ul class="sidebar-nav">
+        {{ with .Site.Params.github }}
+          <li><a href="{{ . }}" target="_blank" rel="noopener">GitHub →</a></li>
+        {{ end }}
+        {{ with .Site.Params.linkedin }}
+          <li><a href="{{ . }}" target="_blank" rel="noopener">LinkedIn →</a></li>
+        {{ end }}
+        {{ with .Site.Params.x }}
+          <li><a href="{{ . }}" target="_blank" rel="noopener">X →</a></li>
+        {{ end }}
+      </ul>
+    </nav>
+
+    <p>
+      {{ with .Site.Params.copyright }}
+        {{ . }}
+      {{ else }}
+        &copy; {{ now.Format "2006" }}. All rights reserved.
+      {{ end }}
+    </p>
+
+  </div>
+</aside>
