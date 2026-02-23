@@ -5,9 +5,9 @@ title: "Home"
 ## About Me
 
 
-I’m a data scientist interested in autonomous systems, robotics, IoT, and product design.
+I’m a data scientist interested in autonomous systems, robotics, IOT, and product design.
 
-Outside of developme, I enjoy playing failing at projects, taking calculated risk, and playing tennis.
+Outside of development, I enjoy failing at projects, taking calculated risk, and playing tennis.
 
 
 ## Recent Projects & Experience
