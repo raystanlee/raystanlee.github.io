@@ -6,14 +6,21 @@
     <description>Recent content in Projects on Raymond Iloegbunam</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 10 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 22 Feb 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>GraphRAG for Survey</title>
-      <link>http://localhost:1313/projects/drone-vision/</link>
+      <title>Object Detection on Orin Nano/Realsense</title>
+      <link>http://localhost:1313/projects/object_detection_orin/</link>
+      <pubDate>Sat, 22 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/object_detection_orin/</guid>
+      <description>&lt;h1 id=&#34;overview&#34;&gt;Overview&lt;/h1&gt;&#xA;&lt;h3 id=&#34;jetson-orin-nano--intel-realsense--yolov8&#34;&gt;Jetson Orin Nano + Intel RealSense + YOLOv8&lt;/h3&gt;&#xA;&lt;p&gt;A very basic real-time object detection project running directly on the NVIDIA Jetson Orin Nano using an Intel RealSense camera and YOLOv8.&lt;/p&gt;&#xA;&lt;p&gt;The overall aim of working on this project was to setup my Nvidia Jetson Orin Nano and Intel RealSense camera, laying the foundation for future CV and automation project&lt;/p&gt;&#xA;&lt;h2 id=&#34;setting-up-the-jetson-orin-nano&#34;&gt;Setting Up the Jetson Orin Nano&lt;/h2&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/img/yolo/orin_nano.jpg&#34; alt=&#34;Orin setup&#34;&gt;&#xA;Getting started required flashing the correct JetPack image onto a microSD card and completing the Ubuntu setup process.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Vision Logger</title>
+      <link>http://localhost:1313/projects/vision-logger/</link>
       <pubDate>Wed, 10 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/drone-vision/</guid>
-      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;A recommendation system using GraphRAG&amp;hellip;&lt;/p&gt;</description>
+      <guid>http://localhost:1313/projects/vision-logger/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;In progress&lt;/p&gt;</description>
     </item>
     <item>
       <title>SeaPerch Underwater ROV</title>

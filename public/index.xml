@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>About Me on Raymond Iloegbunam</title>
+    <title>Home on Raymond Iloegbunam</title>
     <link>http://localhost:1313/</link>
-    <description>Recent content in About Me on Raymond Iloegbunam</description>
+    <description>Recent content in Home on Raymond Iloegbunam</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 16 Jan 2026 11:26:34 -0500</lastBuildDate>
@@ -16,11 +16,18 @@
       <description></description>
     </item>
     <item>
-      <title>GraphRAG for Survey</title>
-      <link>http://localhost:1313/projects/drone-vision/</link>
+      <title>Object Detection on Orin Nano/Realsense</title>
+      <link>http://localhost:1313/projects/object_detection_orin/</link>
+      <pubDate>Sat, 22 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/object_detection_orin/</guid>
+      <description>&lt;h1 id=&#34;overview&#34;&gt;Overview&lt;/h1&gt;&#xA;&lt;h3 id=&#34;jetson-orin-nano--intel-realsense--yolov8&#34;&gt;Jetson Orin Nano + Intel RealSense + YOLOv8&lt;/h3&gt;&#xA;&lt;p&gt;A very basic real-time object detection project running directly on the NVIDIA Jetson Orin Nano using an Intel RealSense camera and YOLOv8.&lt;/p&gt;&#xA;&lt;p&gt;The overall aim of working on this project was to setup my Nvidia Jetson Orin Nano and Intel RealSense camera, laying the foundation for future CV and automation project&lt;/p&gt;&#xA;&lt;h2 id=&#34;setting-up-the-jetson-orin-nano&#34;&gt;Setting Up the Jetson Orin Nano&lt;/h2&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/img/yolo/orin_nano.jpg&#34; alt=&#34;Orin setup&#34;&gt;&#xA;Getting started required flashing the correct JetPack image onto a microSD card and completing the Ubuntu setup process.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Vision Logger</title>
+      <link>http://localhost:1313/projects/vision-logger/</link>
       <pubDate>Wed, 10 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/drone-vision/</guid>
-      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;A recommendation system using GraphRAG&amp;hellip;&lt;/p&gt;</description>
+      <guid>http://localhost:1313/projects/vision-logger/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;In progress&lt;/p&gt;</description>
     </item>
     <item>
       <title>SeaPerch Underwater ROV</title>
@@ -28,6 +35,13 @@
       <pubDate>Mon, 15 Aug 2022 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/projects/searperch/</guid>
       <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;I mentored K-12 students in building SeaPerch underwater remotely operated vehicles (ROVs) during a summer robotics camp. SeaPerch is an educational program that introduces students to engineering, design, and marine robotics through hands-on construction and testing.&lt;/p&gt;&#xA;&lt;h2 id=&#34;building-from-scratch&#34;&gt;Building from Scratch&lt;/h2&gt;&#xA;&lt;p&gt;Over the course of the camp, students worked in teams to complete their ROVs from scratch. The project involved soldering electronic components, waterproofing motors, assembling PVC frames, and integrating control systems. Each team customized their ROV design—choosing between Utility, Mini, and V-Wing configurations—based on specific mission requirements.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Education</title>
+      <link>http://localhost:1313/education/</link>
+      <pubDate>Thu, 15 Aug 2013 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/education/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/img/education/2.jpg&#34; alt=&#34;Univesity Academic Award&#34;&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;university-of-louisiana-at-lafayette&#34;&gt;University of Louisiana at Lafayette&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;M.S. in Informatics (Data Science Concentration)&lt;/strong&gt;&lt;br&gt;&#xA;&lt;em&gt;Lafayette, LA&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;I earned my Master’s degree in Informatics with a concentration in Data Science at the University of Louisiana at Lafayette, where I focused on applied data science, research, and real-world impact through teaching, research, and industry collaboration.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Graduated with a perfect 4.0 CGPA&lt;/strong&gt;, earning the &lt;em&gt;University Academic Excellence Award&lt;/em&gt;.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Graduate Assistant&lt;/strong&gt;, helping build and lay the foundation for the University’s &lt;em&gt;Region 4 STEM Network Center&lt;/em&gt;, expanding STEM access for underrepresented K–12 students.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Research Assistant&lt;/strong&gt; at the &lt;em&gt;Data Analysis and Deep Learning Lab&lt;/em&gt;, working on data analysis, machine learning, and deep learning research.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Summer Intern at Walmart Global Tech&lt;/strong&gt;, gaining hands-on industry experience applying data science to large-scale, real-world problems.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;federal-university-of-technology-owerri&#34;&gt;Federal University of Technology, Owerri&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;B.Eng. in Petroleum Engineering&lt;/strong&gt;&lt;br&gt;&#xA;&lt;em&gt;Owerri, Nigeria&lt;/em&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

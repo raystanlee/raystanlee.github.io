@@ -1,29 +1,74 @@
-/* Push the whole sidebar content up a bit */
-.sidebar-about {
-  padding-top: 0.5rem !important;
+/* ===============================
+   FILTER BUTTONS
+================================ */
+
+.experience-type-tag-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 1rem;
 }
 
-/* Profile image: bigger + higher */
-.sidebar-about img {
-  width: 230px !important;
-  height: 230px !important;
-  object-fit: cover !important;
-  border-radius: 50% !important;
-  display: block !important;
-  margin: -40px auto 10px !important;
+.experience-type-tag {
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  padding: 6px 12px;
+  border-radius: 4px;
+  background: rgba(0,0,0,0.05);
+  font-size: 0.85rem;
+  font-weight: 500;
+  opacity: 0.8;
 }
 
-/* Name: smaller + tighter */
-.sidebar-about h1 {
-  font-size: 1.95rem !important;
-  line-height: 1.05 !important;
-  margin-bottom: 6px !important;
+.experience-type-tag:hover {
+  opacity: 1;
 }
 
-/* Subtitle spacing */
-.sidebar-about .lead {
-  margin-top: 6px !important;
+.experience-type-color {
+  width: 12px;
+  height: 12px;
+  border-radius: 2px;
+  margin-right: 6px;
 }
+
+#clear-experience-filter {
+  cursor: pointer;
+  margin-left: auto;
+  font-size: 0.8rem;
+  opacity: 0.6;
+}
+
+#clear-experience-filter:hover {
+  opacity: 1;
+}
+
+/* ===============================
+   GRID FILTER LOGIC
+================================ */
+
+/* Default: hide everything */
+#filterable-grid > div {
+  display: none;
+}
+
+/* Show all */
+#filterable-grid.grid-show-all > div {
+  display: block;
+}
+
+/* Show by group */
+#filterable-grid.grid-show-software .grid-section-software,
+#filterable-grid.grid-show-ml .grid-section-ml,
+#filterable-grid.grid-show-hardware .grid-section-hardware,
+#filterable-grid.grid-show-professional .grid-section-professional {
+  display: block;
+}
+
+/* ===============================
+   PROJECT CARDS
+================================ */
+
 .project-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
@@ -65,4 +110,13 @@
 .project-subtitle {
   color: #666;
   font-size: 0.9rem;
+}
+
+/* Override Hyde: stop anchoring sidebar content to the bottom */
+/* Make sidebar content start at top (override Hyde's bottom-anchoring) */
+@media (min-width: 48em) {
+  .sidebar-sticky {
+    top: 1rem !important;
+    bottom: auto !important;
+  }
 }
