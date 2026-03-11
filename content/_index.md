@@ -3,10 +3,6 @@ title: "Home"
 ---
 
 
----
-title: "Home"
----
-
 ## About Me
 
 On the last day of 2025, I came across this quote retweeted by [@readswithravi](https://x.com/readswithravi):
