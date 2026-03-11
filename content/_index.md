@@ -2,12 +2,20 @@
 title: "Home"
 ---
 
+
+---
+title: "Home"
+---
+
 ## About Me
 
+On the last day of 2025, I came across this quote retweeted by [@readswithravi](https://x.com/readswithravi):
 
-I’m a data scientist interested in autonomous systems, robotics, IOT, and product design.
+![Mark Manson quote tweeted by @readswithravi](/img/readswithravi-quote.jpg)
 
-Outside of development, I enjoy failing at projects, taking calculated risk, and playing tennis.
+It reminded me that I probably know enough to take action, make mistakes, reflect, and apply. Ever since, all I've tried to do is just **do**.
+
+I'm Raymond, a data scientist interested in autonomous systems, robotics, IOT, and product design. Outside of development, I enjoy failing at projects, taking calculated risks, and playing tennis.
 
 
 ## Recent Projects & Experience

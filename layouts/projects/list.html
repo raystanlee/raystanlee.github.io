@@ -1,0 +1,41 @@
+{{ partial "head.html" . }}
+
+<body class="{{ .Site.Params.themeColor }} {{ if .Site.Params.layoutReverse }}layout-reverse{{ end }}">
+  {{ partial "sidebar.html" . }}
+
+  <div class="content container">
+    <div class="post">
+      <h1>{{ .Title }}</h1>
+      {{ .Content }}
+
+      <div class="row" id="filterable-grid">
+        {{ range .Pages }}
+          <div class="col-xs-6 col-md-6 col-lg-4
+            {{ if eq .Params.group "education" }}grid-section-education{{ end }}
+            {{ if eq .Params.group "software" }}grid-section-software{{ end }}
+            {{ if eq .Params.group "hardware" }}grid-section-hardware{{ end }}
+            {{ if eq .Params.group "career" }}grid-section-career{{ end }}">
+            <a href="{{ .RelPermalink }}" class="project-card-link">
+              <div class="project-card">
+                {{ with .Params.image }}
+                <div class="project-card-image">
+                  <img src="{{ . }}" alt="{{ $.Title }}">
+                </div>
+                {{ end }}
+                <div class="project-card-title-container">
+                  {{ .Title }}
+                </div>
+                {{ with .Params.subtitle }}
+                <div class="project-card-subtitle">
+                  {{ . }}
+                </div>
+                {{ end }}
+              </div>
+            </a>
+          </div>
+        {{ end }}
+      </div>
+    </div>
+  </div>
+</body>
+</html>
