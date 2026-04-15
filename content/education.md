@@ -1,6 +1,6 @@
 ---
 title: "Education"
-group: hardware
+groups: ["professional"]
 date: 2013-08-15
 draft: false
 image: "img/education/1.jpeg"

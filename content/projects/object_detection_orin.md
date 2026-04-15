@@ -1,6 +1,6 @@
 ---
 title: "Object Detection on Orin Nano/Realsense"
-group: software
+groups: ["hardware", "ml"]
 date: 2025-02-22
 draft: false
 image: "img/yolo/yolo.jpg"

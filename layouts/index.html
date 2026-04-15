@@ -21,12 +21,13 @@
       {{ range $items }}
         {{ $group := .Params.group | default "software" }}
 
+        {{ $groups := .Params.groups | default (slice $group) }}
         <div class="col-xs-6 col-md-6 col-lg-4
-          {{ if eq $group "education" }}grid-section-education{{ end }}
-          {{ if eq $group "software" }}grid-section-software{{ end }}
-          {{ if eq $group "hardware" }}grid-section-hardware{{ end }}
-          {{ if eq $group "career" }}grid-section-career{{ end }}
-          {{ if eq $group "professional" }}grid-section-professional{{ end }}">
+          {{ range $groups }}
+            {{ if eq . "ml" }}grid-section-ml{{ end }}
+            {{ if eq . "hardware" }}grid-section-hardware{{ end }}
+            {{ if eq . "professional" }}grid-section-professional{{ end }}
+          {{ end }}">
 
           <a href="{{ .RelPermalink }}" class="project-card-link">
             <div class="project-card">

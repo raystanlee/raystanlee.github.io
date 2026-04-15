@@ -17,11 +17,6 @@ I'm Raymond, a data scientist interested in autonomous systems, robotics, IOT, a
 ## Recent Projects & Experience
 
 <div class="experience-type-tag-container">
-  <div class="experience-type-tag" id="software-experience-filter">
-    <div class="experience-type-color" style="background-color:#48AFF0"></div>
-    Software
-  </div>
-
   <div class="experience-type-tag" id="ml-experience-filter">
     <div class="experience-type-color" style="background-color:#FF6E4A"></div>
     ML/AI

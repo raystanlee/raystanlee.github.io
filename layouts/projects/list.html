@@ -10,16 +10,18 @@
 
       <div class="row" id="filterable-grid">
         {{ range .Pages }}
+          {{ $groups := .Params.groups | default (slice (.Params.group | default "ml")) }}
           <div class="col-xs-6 col-md-6 col-lg-4
-            {{ if eq .Params.group "education" }}grid-section-education{{ end }}
-            {{ if eq .Params.group "software" }}grid-section-software{{ end }}
-            {{ if eq .Params.group "hardware" }}grid-section-hardware{{ end }}
-            {{ if eq .Params.group "career" }}grid-section-career{{ end }}">
+            {{ range $groups }}
+              {{ if eq . "ml" }}grid-section-ml{{ end }}
+              {{ if eq . "hardware" }}grid-section-hardware{{ end }}
+              {{ if eq . "professional" }}grid-section-professional{{ end }}
+            {{ end }}">
             <a href="{{ .RelPermalink }}" class="project-card-link">
               <div class="project-card">
                 {{ with .Params.image }}
                 <div class="project-card-image">
-                  <img src="{{ . }}" alt="{{ $.Title }}">
+                  <img src="{{ . | relURL }}" alt="{{ $.Title }}">
                 </div>
                 {{ end }}
                 <div class="project-card-title-container">

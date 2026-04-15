@@ -1,6 +1,6 @@
 ---
 title: "SeaPerch Underwater ROV"
-group: hardware
+groups: ["hardware"]
 date: 2022-08-15
 draft: false
 image: "img/seaperch/2.png"
