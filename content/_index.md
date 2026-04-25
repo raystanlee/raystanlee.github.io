@@ -9,9 +9,9 @@ On the last day of 2025, I came across this quote retweeted by [@readswithravi](
 
 ![Mark Manson quote tweeted by @readswithravi](/img/readswithravi-quote.jpg)
 
-It reminded me that I probably know enough to take action, make mistakes, reflect, and apply. Ever since, all I've tried to do is just **do**.
+It reminded me that I probably know enough to take action, make mistakes, reflect, and go again. 
 
-I'm Raymond, a data scientist interested in autonomous systems, robotics, IOT, and product design. Outside of development, I enjoy failing at projects, taking calculated risks, and playing tennis.
+I'm Raymond, a data scientist interested in autonomous systems and just doing random stuff. Outside of development, I enjoy failing at projects, taking calculated risks, and playing tennis.
 
 
 ## Recent Projects & Experience
