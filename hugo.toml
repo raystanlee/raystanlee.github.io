@@ -4,18 +4,13 @@ title = "Raymond Iloegbunam"
 theme = "hyde-custom"
 
 [[menu.main]]
-name = "About"
-url = "/about/"
-weight = 1
-
-[[menu.main]]
 name = "Projects"
 url = "/projects/"
 weight = 2
 
 [[menu.main]]
 name = "Experience"
-url = "/experience/"
+url = "/experience/walmart/"
 weight = 3
 
 [[menu.main]]

@@ -112,6 +112,133 @@
   font-size: 0.9rem;
 }
 
+/* ===============================
+   SIDEBAR SOCIAL ICONS
+================================ */
+
+.sidebar-social {
+  display: flex;
+  gap: 12px;
+  margin-top: 20px;
+  margin-bottom: 8px;
+}
+
+.social-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 8px;
+  background: rgba(255,255,255,0.15);
+  color: inherit;
+  transition: background 0.2s, transform 0.2s;
+}
+
+.social-icon:hover {
+  background: rgba(255,255,255,0.3);
+  transform: translateY(-2px);
+}
+
+.social-icon svg {
+  width: 18px;
+  height: 18px;
+}
+
+/* ===============================
+   CONTACT PAGE
+================================ */
+
+.contact-social-grid {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin: 1.5rem 0 2.5rem;
+}
+
+.contact-social-card,
+.content .contact-social-card,
+a.contact-social-card {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 14px 20px;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  text-decoration: none !important;
+  color: #333 !important;
+  font-weight: 500;
+  font-size: 0.95rem;
+  transition: box-shadow 0.2s, transform 0.2s;
+  background: #fff;
+}
+
+.contact-social-card:hover,
+.content .contact-social-card:hover,
+a.contact-social-card:hover {
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transform: translateY(-2px);
+  text-decoration: none !important;
+  color: #333 !important;
+}
+
+.contact-social-card svg {
+  width: 22px;
+  height: 22px;
+  flex-shrink: 0;
+}
+
+.contact-form {
+  max-width: 560px;
+}
+
+.contact-form label {
+  display: block;
+  font-weight: 500;
+  margin-bottom: 6px;
+  font-size: 0.9rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px 14px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  font-family: inherit;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+  transition: border-color 0.2s;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  outline: none;
+  border-color: #888;
+}
+
+.contact-form textarea {
+  resize: vertical;
+  min-height: 130px;
+}
+
+.contact-form button {
+  padding: 11px 28px;
+  background: #333;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.contact-form button:hover {
+  background: #111;
+}
+
 /* Override Hyde: stop anchoring sidebar content to the bottom */
 /* Make sidebar content start at top (override Hyde's bottom-anchoring) */
 @media (min-width: 48em) {

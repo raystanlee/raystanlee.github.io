@@ -3,7 +3,6 @@ title: "Home"
 ---
 
 
-## About Me
 
 On the last day of 2025, I came across this quote retweeted by [@readswithravi](https://x.com/readswithravi):
 
@@ -14,8 +13,8 @@ It reminded me that I probably know enough to take action, make mistakes, reflec
 I'm Raymond, a data scientist interested in autonomous systems and just doing random stuff. Outside of development, I enjoy failing at projects, taking calculated risks, and playing tennis.
 
 
-## Recent Projects & Experience
 
+## Recent Projects & Experience
 <div class="experience-type-tag-container">
   <div class="experience-type-tag" id="ml-experience-filter">
     <div class="experience-type-color" style="background-color:#FF6E4A"></div>
