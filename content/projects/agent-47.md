@@ -1,5 +1,5 @@
 ---
-title: "Agent-47: Personal AI Agent"
+title: "Agent-47"
 groups: ["ml"]
 date: 2026-04-14
 draft: false

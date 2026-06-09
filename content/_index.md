@@ -14,7 +14,6 @@ I'm Raymond, a data scientist interested in autonomous systems and just doing ra
 
 
 
-## Recent Projects & Experience
 <div class="experience-type-tag-container">
   <div class="experience-type-tag" id="ml-experience-filter">
     <div class="experience-type-color" style="background-color:#FF6E4A"></div>
@@ -39,4 +38,4 @@ I'm Raymond, a data scientist interested in autonomous systems and just doing ra
   <div id="clear-experience-filter">Clear Filter</div>
 </div>
 
-<div style="clear: both; width: 100%; height: 25px;"></div>
+<div style="clear: both; width: 100%; height: 6px;"></div>

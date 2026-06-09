@@ -1,5 +1,5 @@
 ---
-title: "Object Detection on Orin Nano/Realsense"
+title: "Object Detection on Orin"
 groups: ["hardware", "ml"]
 date: 2025-02-22
 draft: false
